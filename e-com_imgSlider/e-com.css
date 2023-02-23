@@ -78,6 +78,10 @@ img {
   border-radius: 11px;
   padding: 0px 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.2s;
+}
+.input select:hover {
+  transform: scale(1.1);
 }
 .quantite {
   display: flex;
@@ -94,6 +98,10 @@ img {
   font-size: bolder;
   background-color: black;
   color: white;
+  transition: 0.2s;
+}
+.opstion .quantite button:hover {
+  transform: scale(1.2);
 }
 #counter {
   display: flex;
